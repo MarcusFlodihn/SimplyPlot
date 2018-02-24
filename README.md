@@ -5,7 +5,7 @@ this wrapper is to make it easier to create basic graphs with less lines of code
 
 ## Installation
 ```bash
-pip install simply-plot
+pip install simplyplot
 ```
 
 ## Dependicies
@@ -15,7 +15,7 @@ pip install simply-plot
 # Example
 ## Bar chart
 ```language=python
-import simply_plot
+import simplyplot
 
 options = {
 	'title': 'Sales 2005 - 2008',
@@ -37,7 +37,7 @@ monthly_sales.show()
 ## Line chart
 
 ```language=python
-import simply_plot
+import simplyplot
 
 options = {
 	'title': 'Sales 2005 - 2008',
