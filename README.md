@@ -1,6 +1,6 @@
 # Simply Plot
 
-Simply plot is a wrapper built around the matplotlib framework. The purpose of
+simplyplot is a wrapper built around the matplotlib framework. The purpose of
 this wrapper is to make it easier to create basic graphs with less lines of code.
 
 ## Installation
@@ -25,7 +25,7 @@ options = {
 	'labels': ('2005', '2006', '2007', '2008')
 }
 
-monthly_sales = simply_plot.BarChart(**options)
+monthly_sales = simplyplot.BarChart(**options)
 
 monthly_sales.show()
 ```
@@ -47,7 +47,7 @@ options = {
 	'labels': ('2005', '2006', '2007', '2008')
 }
 
-monthly_sales = simply_plot.LineChart(**options)
+monthly_sales = simplyplot.LineChart(**options)
 
 monthly_sales.show()
 ```
