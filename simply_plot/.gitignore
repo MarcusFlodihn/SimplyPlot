@@ -1,0 +1,6 @@
+.pyc
+/dist/
+/*.egg-info
+.DS_Store
+.ipynb
+__pycache__
