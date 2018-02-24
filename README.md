@@ -55,3 +55,9 @@ monthly_sales.show()
 ### Result
 
 ![Test](example_images/line_chart_example.png)
+
+## To-do
+
+- Make proper tests
+- Add some more graph types
+- Add support for figures, and adding graphs to figures
