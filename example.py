@@ -1,4 +1,4 @@
-import simply_plot
+import simplyplot
 
 options = {
 	'title': 'Sales 2005 - 2008',
@@ -8,6 +8,6 @@ options = {
 	'labels': ['2005', '2006', '2007', '2008']
 }
 
-my_chart = simply_plot.BarChart(**options)
+my_chart = simplyplot.BarChart(**options)
 
 my_chart.show()

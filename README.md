@@ -32,7 +32,7 @@ monthly_sales.show()
 
 ### Result
 
-![Test](example_images/bar_chart_example.png)
+<img src="example_images/bar_chart_example.png" style="width: 60%;"></img>
 
 ## Line chart
 
@@ -54,7 +54,7 @@ monthly_sales.show()
 
 ### Result
 
-![Test](example_images/line_chart_example.png)
+<img src="example_images/line_chart_example.png" style="width: 60%;"></img>
 
 ## To-do
 

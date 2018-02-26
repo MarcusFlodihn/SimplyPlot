@@ -15,7 +15,7 @@ class TestLineChart(unittest.TestCase):
     	'labels': ('2005', '2006', '2007', '2008')
     }
 
-    chart = simplyplot.LineChart(**options)
+    chart = simplyplot.Chart2D(**options)
 
     def test_chart_attributes(self):
         self.assertEqual(str, type(self.chart.title))

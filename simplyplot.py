@@ -122,6 +122,7 @@ class BarChart(Chart2D):
             self.bar_width,
             self.bar_spacing
         )
+        print(self.labels)
 
     def get_bar_positions(self, data, bar_width, bar_spacing):
         """
@@ -151,7 +152,23 @@ class BarChart(Chart2D):
         """
         super().initialize_chart_values()
         plt.bar(self.bar_positions, self.data, width=self.bar_width)
+        plt.xticks(self.bar_positions, self.labels)
         plt.show()
+
+    def render(self, output_file):
+        """
+        Renders the graph to a file
+
+        Returns:
+            None
+
+        Args:
+            output_file (str): Path to the output file
+        """
+        super().initialize_chart_values()
+        plt.bar(self.bar_positions, self.data, width=self.bar_width)
+        plt.xticks(self.bar_positions, self.labels)
+        plt.savefig(output_file)
 
 
 class LineChart(Chart2D):
@@ -168,9 +185,6 @@ class LineChart(Chart2D):
 
     def __init__(self, *args, **kwargs):
         super(LineChart, self).__init__(*args, **kwargs)
-
-    def setup_line_labels(self):
-        plt.xticks(self.data, self.labels)
 
     def show(self):
         super().initialize_chart_values()
