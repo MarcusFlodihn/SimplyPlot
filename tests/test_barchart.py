@@ -26,14 +26,6 @@ class TestBarChart(unittest.TestCase):
         self.assertEqual(list, type(self.chart.data))
         self.assertEqual(list, type(self.chart.labels))
 
-    def test_get_bar_positions(self):
-        result = self.chart.get_bar_positions(
-            self.chart.data,
-            self.chart.bar_width,
-            self.chart.bar_spacing
-        )
-        self.assertEqual(list, type(result))
-
 
 if __name__ == '__main__':
     unittest.main()
